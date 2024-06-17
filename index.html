@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="valores">
+            <div>
+                Entradas = R$
+                <span class="entrada"> 0.00</span>
+            </div>
+            <div>
+                Saidas = R$
+                <span class="saida"> 0.00</span>
+            </div>
+            <div>
+                 Total = R$
+                <span class="total"> 0.00</span>
+            </div>
+        </div>
+        <div class="novoItem">
+            <div class="divDesc">
+                <label for="desc">Descrição</label>
+                <input type="text" id="desc">
+            </div>
+            <div class="divValor">
+                <label for="valor">Valor</label>
+                <input type="number" id="valor">
+            </div>
+            <div class="divTipo">
+                <label for="tipo">Tipo</label>
+                <select id="tipo">
+                    <option value="Entrada">Entrada</option>
+                    <option value="Saida">Saida</option>
+                </select>
+            </div>
+                <button id="botao">Incluir</button>
+        </div>
+        <div class="divTabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th class="valorColuna">Valor</th>
+                        <th class="tipoColuna">Tipo</th>
+                        <th class="acaoColuna"></th>
+                    </tr> 
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

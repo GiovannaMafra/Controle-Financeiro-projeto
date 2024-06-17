@@ -1,0 +1,106 @@
+*{
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(195, 219, 205);
+}
+
+main{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.valores{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.valores > div{
+    border: 1px solid black;
+    background-color: lightgrey;
+    border-radius: 40%;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.231);
+    padding: 20px;
+}
+
+.novoItem{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+
+}
+.divDesc, .divTipo, .divValor{
+    display: flex;
+    flex-direction: column;
+}
+
+.novoItem > button{
+    background-color: rgb(113, 145, 198);
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 20%;
+}
+input, select {
+    padding: 5px;
+}
+.divTabela{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 98%;
+    padding: 20px 0px;
+}
+th{
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+}
+td.tipoColuna{
+    width: 10px;
+}
+i {
+    font-size: 25px;
+}
+  
+.bxs-chevron-up-circle {
+    color: #00C9A7;
+}
+  
+.bxs-chevron-down-circle {
+    color: #D83121;
+}
+  
+.acaoColuna{
+    width: 40px;
+    text-align: center;
+}
+.acaoColuna > button {
+    background: transparent;
+    border: none;
+}
+.valorColuna {
+    width: 30%;
+}
+  
+.tipoColuna {
+    width: 20px;
+    text-align: center;
+}
